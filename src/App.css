@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url("http://www.vignette2.wikia.nocookie.net/creepypasta/images/8/80/Creepycemetery.jpg/revision/latest?cb=20131013135547");
 }
 
 .App-logo {
@@ -14,8 +15,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgba(40, 44, 52, 75%);
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +36,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ui.card {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.ui.cards>.card  {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.ui.cards>.card * {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: .28571429rem;
 }
