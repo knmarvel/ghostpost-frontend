@@ -66,7 +66,6 @@ function App() {
     else{
       switchWord = event.target.children[0].innerHTML
     }
-    console.log(switchWord)
     switch(switchWord){
       case "viewAllPosts": 
         setFilter("n")
@@ -90,7 +89,6 @@ function App() {
         setSort("-score")
         break;
       default:
-        console.log("defaulted")
     }
   }
 
